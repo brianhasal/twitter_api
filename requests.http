@@ -1,0 +1,59 @@
+### Index
+GET http://localhost:3000/users.json
+
+### Create
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+"username": "BruceWayne",
+"email": "bwayne@test.com"
+}
+
+### Show
+GET http://localhost:3000/users/1.json
+
+### Update
+PATCH http://localhost:3000/users/4.json
+Content-Type: application/json
+
+{
+"username": "IMBATMAN"
+}
+
+### Destroy
+DELETE http://localhost:3000/users/4.json
+
+
+
+
+
+
+
+
+
+
+### Index
+GET http://localhost:3000/tweets.json
+
+### Create
+POST http://localhost:3000/tweets.json
+Content-Type: application/json
+
+{
+"text": "test-name",
+"user_id": 2
+}
+
+### Show
+GET http://localhost:3000/tweets/2.json
+
+### Update
+# PATCH http://localhost:3000/waters/4.json
+# Content-Type: application/json
+# {
+# "price": 25
+# }
+
+### Destroy
+DELETE http://localhost:3000/tweets/7.json
